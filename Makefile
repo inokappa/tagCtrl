@@ -1,7 +1,7 @@
 default:
 	@echo Makefile for My Golang Application
 	@echo
-	@echo Usage: make [task]
+	@echo Usage: make [task] [ARGS]
 	@echo
 	@echo Tasks:
 	@python -c 'from tasks import tasks; tasks()' < Makefile
